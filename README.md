@@ -1,6 +1,6 @@
 nBayes (based on Paul Graham's spam filter) makes it easy to introduce statistics based decision making into your application. Whether it's spam filtering, or something else like artificial intelligence learning ... this tool can do it. The project is written in C#
 
-This fork is taken frmo joelmartinez original open source project.
+This fork is taken from joelmartinez's original open source project.
 
 You can also check out my blog to see what I'm up to: [http://www.jamiemaguire.net](http://www.jamiemaguire.net)
 
