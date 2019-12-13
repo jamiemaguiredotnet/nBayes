@@ -1,11 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nBayes.Sample", "nBayes.Sample\nBayes.Sample.csproj", "{F9BF3304-A13E-4FAA-8DF9-2F4999B00235}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nBayes", "nBayes\nBayes.csproj", "{3747B7E2-4EE1-4AAA-8EBF-B9655DAF6A6B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nBayes.test", "nBayes.test\nBayes.test.csproj", "{4AA195A7-7E8A-4D7B-87AC-1A0A3E55F725}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,27 +21,14 @@ Global
 		{3747B7E2-4EE1-4AAA-8EBF-B9655DAF6A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3747B7E2-4EE1-4AAA-8EBF-B9655DAF6A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3747B7E2-4EE1-4AAA-8EBF-B9655DAF6A6B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4AA195A7-7E8A-4D7B-87AC-1A0A3E55F725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AA195A7-7E8A-4D7B-87AC-1A0A3E55F725}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AA195A7-7E8A-4D7B-87AC-1A0A3E55F725}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AA195A7-7E8A-4D7B-87AC-1A0A3E55F725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B28B1195-3733-45BC-9235-2C4FAA8355E4}
+	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = nBayes.Sample\nBayes.Sample.csproj
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs10.codeplex.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = nBayes.Sample\\nBayes.Sample.csproj
-		SccProjectName1 = nBayes.Sample
-		SccLocalPath1 = nBayes.Sample
-		SccProjectUniqueName2 = nBayes\\nBayes.csproj
-		SccProjectName2 = nBayes
-		SccLocalPath2 = nBayes
 	EndGlobalSection
 EndGlobal

@@ -50,3 +50,4 @@ _ReSharper*/
 
 # nuget
 *.nupkg
+/.vs
